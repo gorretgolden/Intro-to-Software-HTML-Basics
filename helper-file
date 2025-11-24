@@ -1,0 +1,7 @@
+Initialize: git init
+Stage: git add .
+Commit: git commit -m "worked on my karibu website"
+Push: git push -u origin main
+    ensure: Add remote url for repo: git remote add origin url
+    confirm: git remote -v 
+    push:
